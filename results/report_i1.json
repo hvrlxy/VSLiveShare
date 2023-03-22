@@ -1,0 +1,18 @@
+************* Module problem1
+problem1.py:16:0: C0303: Trailing whitespace (trailing-whitespace)
+problem1.py:30:0: C0303: Trailing whitespace (trailing-whitespace)
+problem1.py:37:0: C0303: Trailing whitespace (trailing-whitespace)
+problem1.py:11:0: C0115: Missing class docstring (missing-class-docstring)
+problem1.py:11:0: R0205: Class 'TreeNode' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+problem1.py:11:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+problem1.py:17:0: C0115: Missing class docstring (missing-class-docstring)
+problem1.py:17:0: R0205: Class 'Solution' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+problem1.py:18:4: C0103: Method name "hasPathSum" doesn't conform to snake_case naming style (invalid-name)
+problem1.py:18:31: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+problem1.py:31:11: C0121: Comparison 'root.left != None' should be 'root.left is not None' (singleton-comparison)
+problem1.py:33:11: C0121: Comparison 'root.right != None' should be 'root.right is not None' (singleton-comparison)
+problem1.py:17:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 1.88/10 (previous run: 1.88/10, +0.00)
+

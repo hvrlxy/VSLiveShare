@@ -1,0 +1,18 @@
+************* Module control_2
+control_2.py:23:0: C0304: Final newline missing (missing-final-newline)
+control_2.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+control_2.py:7:0: C0115: Missing class docstring (missing-class-docstring)
+control_2.py:8:4: C0116: Missing function or method docstring (missing-function-docstring)
+control_2.py:8:4: C0103: Method name "pathSum" doesn't conform to snake_case naming style (invalid-name)
+control_2.py:8:48: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+control_2.py:8:28: E0602: Undefined variable 'Optional' (undefined-variable)
+control_2.py:8:37: E0602: Undefined variable 'TreeNode' (undefined-variable)
+control_2.py:8:67: E0602: Undefined variable 'List' (undefined-variable)
+control_2.py:8:72: E0602: Undefined variable 'List' (undefined-variable)
+control_2.py:9:22: C0103: Argument name "s" doesn't conform to snake_case naming style (invalid-name)
+control_2.py:21:8: C0103: Variable name "t" doesn't conform to snake_case naming style (invalid-name)
+control_2.py:7:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+

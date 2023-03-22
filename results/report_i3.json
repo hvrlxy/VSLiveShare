@@ -1,0 +1,31 @@
+************* Module intervention1
+intervention1.py:14:24: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:20:35: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:22:0: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:36:0: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:41:0: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:43:0: C0325: Unnecessary parens after 'if' keyword (superfluous-parens)
+intervention1.py:46:0: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:47:0: C0301: Line too long (124/100) (line-too-long)
+intervention1.py:57:0: C0303: Trailing whitespace (trailing-whitespace)
+intervention1.py:11:0: C0115: Missing class docstring (missing-class-docstring)
+intervention1.py:11:0: R0205: Class 'TreeNode' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+intervention1.py:11:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+intervention1.py:16:0: C0115: Missing class docstring (missing-class-docstring)
+intervention1.py:16:0: R0205: Class 'Solution' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+intervention1.py:20:4: C0116: Missing function or method docstring (missing-function-docstring)
+intervention1.py:20:4: C0103: Method name "DFS" doesn't conform to snake_case naming style (invalid-name)
+intervention1.py:20:24: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+intervention1.py:23:11: C0121: Comparison 'root.left != None' should be 'root.left is not None' (singleton-comparison)
+intervention1.py:27:13: C0121: Comparison 'root.right != None' should be 'root.right is not None' (singleton-comparison)
+intervention1.py:20:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+intervention1.py:38:4: C0116: Missing function or method docstring (missing-function-docstring)
+intervention1.py:38:4: C0103: Method name "inOrder" doesn't conform to snake_case naming style (invalid-name)
+intervention1.py:38:37: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+intervention1.py:40:21: C0321: More than one statement on a single line (multiple-statements)
+intervention1.py:50:4: C0103: Method name "hasPathSum" doesn't conform to snake_case naming style (invalid-name)
+intervention1.py:50:31: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+
+-----------------------------------
+Your code has been rated at 1.61/10
+

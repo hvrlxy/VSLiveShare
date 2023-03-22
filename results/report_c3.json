@@ -1,0 +1,12 @@
+************* Module control_3
+control_3.py:23:0: C0304: Final newline missing (missing-final-newline)
+control_3.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+control_3.py:7:0: C0115: Missing class docstring (missing-class-docstring)
+control_3.py:7:0: R0205: Class 'Solution' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+control_3.py:8:4: C0103: Method name "hasPathSum" doesn't conform to snake_case naming style (invalid-name)
+control_3.py:8:31: W0622: Redefining built-in 'sum' (redefined-builtin)
+control_3.py:7:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 3.00/10
+

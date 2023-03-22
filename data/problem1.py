@@ -13,6 +13,7 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
+        
 class Solution(object):
     def hasPathSum(self, root, targetSum):
         """
@@ -20,4 +21,17 @@ class Solution(object):
         :type targetSum: int
         :rtype: bool
         """
+
+        ans = False
+        need = targetSum - root.val
+
+        if (need==0 and root.left is None and root.right is None):
+            return True
         
+        if root.left != None:
+            ans = ans or self.hasPathSum(root.left, need)
+        if root.right != None:
+            ans = ans or self.hasPathSum(root.right, need)
+
+        return ans
+            

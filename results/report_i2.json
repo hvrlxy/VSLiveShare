@@ -1,0 +1,20 @@
+************* Module problem2
+problem2.py:19:0: C0303: Trailing whitespace (trailing-whitespace)
+problem2.py:23:0: C0303: Trailing whitespace (trailing-whitespace)
+problem2.py:26:22: C0303: Trailing whitespace (trailing-whitespace)
+problem2.py:31:0: C0303: Trailing whitespace (trailing-whitespace)
+problem2.py:33:0: C0304: Final newline missing (missing-final-newline)
+problem2.py:14:0: C0115: Missing class docstring (missing-class-docstring)
+problem2.py:14:0: R0205: Class 'TreeNode' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+problem2.py:14:0: R0903: Too few public methods (0/2) (too-few-public-methods)
+problem2.py:20:0: C0115: Missing class docstring (missing-class-docstring)
+problem2.py:20:0: R0205: Class 'Solution' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+problem2.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+problem2.py:21:4: C0103: Method name "pathSum" doesn't conform to snake_case naming style (invalid-name)
+problem2.py:21:28: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+problem2.py:24:21: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+problem2.py:20:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+------------------------------------------------------------------
+Your code has been rated at 1.18/10 (previous run: 1.18/10, +0.00)
+

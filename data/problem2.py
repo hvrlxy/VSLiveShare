@@ -16,10 +16,18 @@ class TreeNode(object):
         self.val = val
         self.left = left
         self.right = right
+        
 class Solution(object):
     def pathSum(self, root, targetSum):
-        """
-        :type root: TreeNode
-        :type targetSum: int
-        :rtype: List[List[int]]
-        """
+        res = []
+        
+        def dfs(root,targetSum,path):
+            if not root :
+                return 
+            if root.left is None and root.right is None and targetSum - root.val == 0 :
+                res.append(path + [root.val])
+            dfs(root.left,targetSum - root.val , path + [root.val])
+            dfs(root.right,targetSum - root.val , path + [root.val])
+        
+        dfs(root,targetSum,[])
+        return res

@@ -1,0 +1,18 @@
+************* Module control_1
+control_1.py:10:0: C0303: Trailing whitespace (trailing-whitespace)
+control_1.py:13:0: C0303: Trailing whitespace (trailing-whitespace)
+control_1.py:14:0: C0304: Final newline missing (missing-final-newline)
+control_1.py:14:0: C0301: Line too long (116/100) (line-too-long)
+control_1.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+control_1.py:1:0: C0115: Missing class docstring (missing-class-docstring)
+control_1.py:1:0: R0205: Class 'Solution' inherits from object, can be safely removed from bases in python3 (useless-object-inheritance)
+control_1.py:2:4: C0103: Method name "hasPathSum" doesn't conform to snake_case naming style (invalid-name)
+control_1.py:2:31: C0103: Argument name "targetSum" doesn't conform to snake_case naming style (invalid-name)
+control_1.py:8:11: C0121: Comparison 'root == None' should be 'root is None' (singleton-comparison)
+control_1.py:11:11: C0121: Comparison 'root.left == None' should be 'root.left is None' (singleton-comparison)
+control_1.py:11:33: C0121: Comparison 'root.right == None' should be 'root.right is None' (singleton-comparison)
+control_1.py:1:0: R0903: Too few public methods (1/2) (too-few-public-methods)
+
+-----------------------------------
+Your code has been rated at 0.00/10
+
